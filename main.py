@@ -1,4 +1,8 @@
-!pip install -r requirements.txt
+# install_dependencies.py
+import subprocess
+
+subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
+
 
 import streamlit as st
 import whisper
